@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANTX - Registro</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <div class="tarjeta">
+
+        <div class="logo">
+            <h1>VALORANT<span>X</span></h1>
+            <p>Crear nueva cuenta</p>
+        </div>
+
+        <h2>Registrarse</h2>
+
+        <form id="registroForm">
+
+            <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Ingrese su nombre"
+                    required
+                >
+            </div>
+
+            <div class="campo">
+                <label for="correo">Correo electrónico</label>
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="Ingrese su correo"
+                    required
+                >
+            </div>
+
+            <div class="campo">
+                <label for="contraseña">Contraseña</label>
+                <input
+                    type="password"
+                    id="contraseña"
+                    name="contraseña"
+                    placeholder="Mínimo 6 caracteres"
+                    minlength="6"
+                    required
+                >
+            </div>
+
+            <div class="campo">
+                <label for="confirmarContraseña">
+                    Confirmar contraseña
+                </label>
+
+                <input
+                    type="password"
+                    id="confirmarContraseña"
+                    name="confirmarContraseña"
+                    placeholder="Repita su contraseña"
+                    minlength="6"
+                    required
+                >
+            </div>
+
+            <button type="submit">
+                Crear cuenta
+            </button>
+
+        </form>
+
+        <p id="mensaje"></p>
+
+        <div class="registro">
+            <p>¿Ya tienes una cuenta?</p>
+            <a href="index.html">Iniciar sesión</a>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/auth.js"></script>
+
+</body>
+</html>

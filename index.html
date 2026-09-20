@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANTX - Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <div class="tarjeta">
+
+        <div class="logo">
+            <h1>VALORANT<span>X</span></h1>
+            <p>Plataforma de autenticación</p>
+        </div>
+
+        <h2>Iniciar sesión</h2>
+
+        <form id="loginForm">
+
+            <div class="campo">
+                <label for="correo">Correo electrónico</label>
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="Ingrese su correo"
+                    required
+                >
+            </div>
+
+            <div class="campo">
+                <label for="contraseña">Contraseña</label>
+                <input
+                    type="password"
+                    id="contraseña"
+                    name="contraseña"
+                    placeholder="Ingrese su contraseña"
+                    required
+                >
+            </div>
+
+            <button type="submit">
+                Iniciar sesión
+            </button>
+
+        </form>
+
+        <p id="mensaje"></p>
+
+        <div class="registro">
+            <p>¿No tienes una cuenta?</p>
+            <a href="registro.html">Crear una cuenta</a>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/auth.js"></script>
+
+</body>
+</html>

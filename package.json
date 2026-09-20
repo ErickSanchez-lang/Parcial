@@ -1,0 +1,14 @@
+{
+  "name": "valorantx-frontend",
+  "version": "1.0.0",
+  "description": "Frontend del sistema de autenticación VALORANTX",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
